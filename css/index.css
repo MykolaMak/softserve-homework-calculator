@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap'); :root {
+    background: linear-gradient(to right, rgb(22, 3, 3), rgb(54, 3, 102));
+}
+
+.calc .display {
+    font-family: 'Indie Flower', cursive;
+    text-align: right;
+    border: 0.5px solid gray;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 411px;
+    height: 100px;
+    font-size: 3rem;
+    background: linear-gradient(to top, rgb(73, 47, 8), rgb(3, 1, 26));
+    color: rgb(248, 225, 18);
+}
+
+button {
+    font-family: 'Indie Flower', cursive;
+    background: linear-gradient(to top, rgb(53, 34, 5), rgb(9, 3, 65));
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: rgb(248, 227, 34);
+}
+
+.division {
+    width: 204px;
+    height: 100px;
+}
+
+.clear {
+    width: 204px;
+    height: 100px;
+    border-bottom-right-radius: 20px;
+}
+
+.calc {
+    position: absolute;
+    left: 35%
+}
+
+.calc .back {
+    border-bottom-left-radius: 20px;
+}
