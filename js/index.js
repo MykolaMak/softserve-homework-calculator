@@ -21,17 +21,17 @@ function btnClicked(ev) {
     display.value += ev.target.innerText;
 
 }
-;/////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
 function back() {
     const exp = display.value;
     display.value = exp.substr(0, exp.length - 1);
 }
-;
+
 function clear() {
     display.value = '';
 }
-;
+
 function checkInfinity() {
     const displayValue = display.value;
     if (eval(displayValue) !== Infinity) {
@@ -40,6 +40,4 @@ function checkInfinity() {
         display.value = '';
         display.placeholder = 'Error';
     }
-    ;
 }
-;
